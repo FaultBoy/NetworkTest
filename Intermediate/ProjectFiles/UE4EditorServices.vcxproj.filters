@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Target.cs" />
+		<None Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{4BC379FB-C6B1-4782-BF8A-89CFEB4955FC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Private\Linux">
+			<UniqueIdentifier>{5DE20B65-332B-4566-8016-FFFB8B9B7A75}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\Mac\UE4EditorServices\Private\Linux\UE4EditorServicesMain.cpp">
+			<Filter>Private\Linux</Filter>
+		</ClCompile >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{213A17C0-FFB9-4E64-AB4E-9807E0AAC60E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesAppDelegate.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesAppDelegate.h">
+			<Filter>Private\Mac</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesMain.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{6D4A71F6-9655-4B1E-8AF6-67018A145D9C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\Mac\UE4EditorServices\Private\Windows\UE4EditorServicesMain.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+	</ItemGroup>
+</Project>

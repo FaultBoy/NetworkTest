@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs" />
+		<None Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{33BF3439-F1A2-44F6-9D6E-FFCE0B0C2780}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\GitHub\UnrealEngine\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
